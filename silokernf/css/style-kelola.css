@@ -1,0 +1,39 @@
+body {
+    
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/cjumbotron.jpg);
+    background-attachment: fixed;
+    background-position-y: -150px;
+    height: 100vh;
+    background-size: cover;
+}
+
+.card-kelola {
+    padding-top: 250px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.card-kelola .container .row .col-md-5 .btn {
+    background-color: cyan;
+}
+
+.card-kelola .container .row .col-md-5:hover {
+    transform: scale(1.15);
+    transition: .5s;
+}
+
+.card-kelola .container .row .col-md-5 {
+    padding: 50px;
+    background-color: #1a243b69;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #666666;
+}
+
+.kelola-mitra {
+    padding-top: 200px;
+}
+
+.kelola-loker {
+    padding-top: 150px;
+}

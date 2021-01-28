@@ -1,0 +1,10 @@
+body .mitra {
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+body .mitra .container .row .col-md-12 .border h3 { 
+    margin-top: 20px;
+    color: #4e5052;
+    font-weight: 600;
+}

@@ -1,0 +1,15 @@
+body .loker {
+    margin-top: 80px;
+}
+
+body .loker .container .row .col-md-8 .border h3 { 
+    margin-top: 20px;
+    color: #4e5052;
+    font-weight: 600;
+}
+
+body .container .row .col-md-12 .border h3 { 
+    margin-top: 20px;
+    color: #4e5052;
+    font-weight: 600;
+}

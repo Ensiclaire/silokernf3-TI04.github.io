@@ -1,0 +1,118 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Navbar */
+.navbar .container .navbar-brand {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar .container .navbar-nav .nav-link {
+    margin-right: 5px;
+    color: #fff;
+    transition: .3s;
+}
+
+.navbar .container .navbar-nav .nav-link:hover {
+    color: cyan;
+}
+
+.navbar .collapse .navbar-nav .nav-link i {
+    color: cyan;
+    font-size: 20px;
+}
+
+.navbar .collapse .navbar-nav .nav-link i:hover {
+    color: #fff;
+    transition: .3s;
+}
+
+nav {
+    background-color: #1a243b;
+}
+
+/* Home */
+.jumbotron {
+    padding-top: 100px;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/cjumbotron.jpg);
+    background-attachment: fixed;
+    background-position-y: -150px;
+    height: 100vh;
+    background-size: cover;
+}   
+
+.jumbotron .container {
+    margin-top: 110px;
+}
+
+.jumbotron h1 {
+    font-size: 70px;
+    font-weight: 500;
+    margin: 0;
+    color: #fff;
+}
+
+.jumbotron h3 {
+    color: rgb(130, 167, 130);
+}
+
+.jumbotron p {   
+    color: #fff;
+}
+
+
+/* Berita */
+.berita .row .col-md-12 {
+    margin-top: 30px;
+}
+
+.berita .row .col-md-12 h1{
+    color: #1a243b;
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.home-berita1 {
+    margin-top: 50px;
+}
+
+.home-berita2 {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.home-berita1 h5 {
+    color: #1a243b;
+}
+
+.home-berita2 h5 {
+    color: #1a243b;
+}
+
+.home-berita1 .card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #666;
+}
+
+.home-berita2 .card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #666;
+}
+
+ 
+/* Footer */
+.footer {
+    background-color: #1a243b;
+    color: #00ffff;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.footer h1, h3, h5 {
+    color: #fff;
+}

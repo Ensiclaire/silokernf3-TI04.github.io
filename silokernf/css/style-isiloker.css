@@ -1,0 +1,11 @@
+body .isiloker {
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.isiloker .container .row .col-md-12 p {
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0;
+    color: #1a243b;
+}
